@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: grey;
+}
+html{
+  height: 100%;
+}
+body, #root{
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+#quote-box{
+  display:block;
+  width: 30%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  align-content: center;
+  margin: 0 auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:indianred;
+  border-radius: 15px;
+}
+
+#quote-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#text{
+  color:#363636;
+  font-size: 36px;
+  text-align: center;
+}
+#author{
+  text-align: right;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-right: 25px;
+}
+
+#btns{
+  display:flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+i{
+  padding-right: 5px;
+}
+
+button{
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  border: 0px;
+}
