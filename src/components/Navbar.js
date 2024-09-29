@@ -3,7 +3,7 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedin, FaGithub, FaUserAlt, FaProjectDiagram, FaEnvelope} from 'react-icons/fa';
 import {SiLeetcode} from 'react-icons/si';
 import {FiMenu, FiX} from 'react-icons/fi';
-import {FaMoon, FaSun} from 'react-icons/fa'; // Import moon and sun icons
+import {FaMoon, FaSun} from 'react-icons/fa';
 
 export default function Navbar({toggleDarkMode, isDarkMode}) {
     const [activeLink, setActiveLink] = useState('#about');

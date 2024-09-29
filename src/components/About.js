@@ -1,4 +1,3 @@
-// About.js
 import {courses, skills} from "./data";
 import {FaDownload, FaInfoCircle} from "react-icons/fa";
 import {useState, useRef, useEffect} from "react";
